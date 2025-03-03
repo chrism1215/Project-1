@@ -1,1 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Define project properties -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>  <!-- Targeting .NET 8.0 framework -->
+    <ImplicitUsings>enable</ImplicitUsings>  <!-- Enables automatic using directives -->
+    <Nullable>enable</Nullable>  <!-- Enforces nullable reference types -->
+
+    <IsPackable>false</IsPackable>  <!-- Prevents the project from being packaged -->
+    <IsTestProject>true</IsTestProject>  <!-- Specifies that this is a test project -->
+  </PropertyGroup>
+
+  <!-- List of package dependencies -->
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />  <!-- For code coverage analysis -->
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />  <!-- Required for test execution -->
+    <PackageReference Include="xunit" Version="2.5.3" />  <!-- xUnit testing framework -->
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />  <!-- Test runner for Visual Studio -->
+  </ItemGroup>
+
+  <!-- Include necessary namespaces -->
+  <ItemGroup>
+    <Using Include="Xunit" />  <!-- Import Xunit for testing -->
+  </ItemGroup>
+
+  <!-- Reference to another project within the solution -->
+  <ItemGroup>
+    <ProjectReference Include="..\FileReaderParserLibrary\FileReaderParserLibrary.csproj" />  <!-- Links to a library project -->
+  </ItemGroup>
+
+</Project>
 
