@@ -1,1 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- References to dependent projects within the solution -->
+  <ItemGroup>
+    <ProjectReference Include="..\FileReaderParserLibrary\FileReaderParserLibrary.csproj" />
+    <ProjectReference Include="..\QuadtreeLibrary\QuadtreeLibrary.csproj" />
+  </ItemGroup>
+
+  <!-- Project configuration settings -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>  <!-- Defines the output as an executable application -->
+    <TargetFramework>net8.0</TargetFramework>  <!-- Specifies the target .NET framework version -->
+    <ImplicitUsings>enable</ImplicitUsings>  <!-- Enables automatic inclusion of common namespaces -->
+    <Nullable>enable</Nullable>  <!-- Enforces nullable reference type checking -->
+  </PropertyGroup>
+
+</Project>
 
