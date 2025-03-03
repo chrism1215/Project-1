@@ -1,1 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadtreeCLI", "QuadtreeCLI\QuadtreeCLI.csproj", "{A1234567-B890-4CDE-F012-3456789ABCDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadtreeCore", "QuadtreeCore\QuadtreeCore.csproj", "{B2345678-C901-4DEF-G123-456789ABCDE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileProcessor", "FileProcessor\FileProcessor.csproj", "{C3456789-D012-4E01-H234-56789ABCDE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadtreeTests", "QuadtreeTests\QuadtreeTests.csproj", "{D456789A-E123-4F12-I345-6789ABCDE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileProcessorTests", "FileProcessorTests\FileProcessorTests.csproj", "{E56789AB-F234-4G23-J456-789ABCDE45}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1234567-B890-4CDE-F012-3456789ABCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1234567-B890-4CDE-F012-3456789ABCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1234567-B890-4CDE-F012-3456789ABCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1234567-B890-4CDE-F012-3456789ABCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2345678-C901-4DEF-G123-456789ABCDE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2345678-C901-4DEF-G123-456789ABCDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2345678-C901-4DEF-G123-456789ABCDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2345678-C901-4DEF-G123-456789ABCDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3456789-D012-4E01-H234-56789ABCDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3456789-D012-4E01-H234-56789ABCDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3456789-D012-4E01-H234-56789ABCDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3456789-D012-4E01-H234-56789ABCDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D456789A-E123-4F12-I345-6789ABCDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D456789A-E123-4F12-I345-6789ABCDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D456789A-E123-4F12-I345-6789ABCDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D456789A-E123-4F12-I345-6789ABCDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56789AB-F234-4G23-J456-789ABCDE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56789AB-F234-4G23-J456-789ABCDE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56789AB-F234-4G23-J456-789ABCDE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56789AB-F234-4G23-J456-789ABCDE45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
