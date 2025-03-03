@@ -1,1 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
 
+  <!-- Define core project settings -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>  <!-- Specifies the .NET version for the project -->
+    <ImplicitUsings>enable</ImplicitUsings>  <!-- Automatically includes common namespaces -->
+    <Nullable>enable</Nullable>  <!-- Enables nullable reference type checks -->
+  </PropertyGroup>
+
+</Project>
