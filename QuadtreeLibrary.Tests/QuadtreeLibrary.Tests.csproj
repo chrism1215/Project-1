@@ -1,1 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Project configuration settings -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>  <!-- Specifies the target .NET framework version -->
+    <ImplicitUsings>enable</ImplicitUsings>  <!-- Enables automatic inclusion of commonly used namespaces -->
+    <Nullable>enable</Nullable>  <!-- Enforces nullable reference type checking -->
+
+    <IsPackable>false</IsPackable>  <!-- Prevents the project from being packaged -->
+    <IsTestProject>true</IsTestProject>  <!-- Marks this as a test project -->
+  </PropertyGroup>
+
+  <!-- Dependencies required for testing -->
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />  <!-- Code coverage tool -->
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />  <!-- Test SDK for .NET -->
+    <PackageReference Include="xunit" Version="2.5.3" />  <!-- xUnit framework for unit testing -->
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />  <!-- xUnit test runner for Visual Studio -->
+  </ItemGroup>
+
+  <!-- Import xUnit for test execution -->
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <!-- Reference to the Quadtree library project -->
+  <ItemGroup>
+    <ProjectReference Include="..\QuadtreeLibrary\QuadtreeLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
 
