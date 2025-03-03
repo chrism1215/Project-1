@@ -1,1 +1,8 @@
-
+Insert 15 15 6 6;
+Insert 25 25 9 9;
+Find 15 15;
+Update 15 15 8 8;
+Find 15 15;
+Delete 25 25;
+Find 25 25;
+Dump;
